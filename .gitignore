@@ -1,6 +1,5 @@
 __pycache__/
 *.pyc
-data/
 models/
 .env
 .DS_Store
