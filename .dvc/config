@@ -1,0 +1,7 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/sayajaanu/customer_churn_mlops.dvc
+    auth = basic
+    user = sayajaanu
+    password = 724c0af2358b3d3d37ad53b08b48d22d62b5e1cd
