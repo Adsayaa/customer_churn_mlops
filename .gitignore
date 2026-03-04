@@ -1,5 +1,26 @@
+# Python
 __pycache__/
 *.pyc
-models/
+*.pyo
+
+# Environment
 .env
+.venv/
+venv/
+
+# MLflow
+mlruns/
+
+# DVC cache
+.dvc/cache/
+.dvc/tmp/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
