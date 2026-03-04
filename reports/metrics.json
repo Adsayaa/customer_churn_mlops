@@ -1,0 +1,43 @@
+{
+    "model_comparison": {
+        "logistic_regression": {
+            "accuracy": 0.7395315826827538,
+            "precision": 0.5060240963855421,
+            "recall": 0.786096256684492,
+            "f1_score": 0.6157068062827226,
+            "roc_auc": 0.8418868996874113
+        },
+        "random_forest": {
+            "accuracy": 0.7885024840312278,
+            "precision": 0.6328671328671329,
+            "recall": 0.4839572192513369,
+            "f1_score": 0.5484848484848485,
+            "roc_auc": 0.8271590586168592
+        },
+        "gradient_boosting": {
+            "accuracy": 0.8005677785663591,
+            "precision": 0.658703071672355,
+            "recall": 0.516042780748663,
+            "f1_score": 0.5787106446776612,
+            "roc_auc": 0.8433800924849518
+        }
+    },
+    "best_model": {
+        "name": "gradient_boosting",
+        "test_metrics": {
+            "accuracy": 0.8005677785663591,
+            "precision": 0.662020905923345,
+            "recall": 0.5080213903743316,
+            "f1_score": 0.5748865355521936,
+            "roc_auc": 0.8457865095972512
+        }
+    },
+    "tuning": {
+        "best_params": {
+            "learning_rate": 0.05,
+            "max_depth": 2,
+            "n_estimators": 200
+        },
+        "cv_best_roc_auc": 0.8488115579491629
+    }
+}
