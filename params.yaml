@@ -1,0 +1,12 @@
+data:
+  cleaned_path: data/processed/dataset-cleaned.csv
+  target_col: Churn
+  test_size: 0.2
+  random_state: 42
+train:
+  model_type: logistic_regression
+  class_weight: balanced
+  max_iter: 5000
+mlflow:
+  experiment_name: churn_prediction
+  registered_model_name: churn_model
